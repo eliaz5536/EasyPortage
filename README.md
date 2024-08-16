@@ -20,21 +20,23 @@ chmod +x easyportage.sh
 ```
 
 # Symlink
+It is recommended for ease-of-use, to create a symlink to the /usr/bin directory to ensure it 
 ```
-<insert help over here>
+sn -ln ~/easyportage/easyportage.sh /usr/bin
 ```
 
 # Cronjob
+You can manually input the executable on the cronjob to ensure that it executes the easyportage file on the following.
 ```
-<insert help usage over here>
+<INSERT HERE>
 ```
 
 # Usage
 ```
-<insert usage over here>
+EasyPortage
+
+Usage: ./easyportage.sh [options]
 ```
 
 # License
-```
-insert MIT license over here
-```
+
