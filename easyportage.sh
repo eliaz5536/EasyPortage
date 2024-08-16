@@ -288,7 +288,7 @@ weekly() {
 #================================================================
 monthly() {
 	info "Executing emerge --sync && emerge --auDN @world command"
-	emerge --sync && emerge --auDN @world
+	emerge --sync && emerge -auDN @world
 	success "Completed executing emerge --sync && emerge --auDN @world command"
 
 	info "Executing emerge --update --deep --with-bdeps=y @world command"
@@ -317,7 +317,6 @@ clean() {
 		revdep-rebuild
 		success "Completed executing revdep-rebuild command"
 	fi
-
 
 	success "Completed executing revdep-rebuild command"
 	info "Executing emerge --depclean command"
