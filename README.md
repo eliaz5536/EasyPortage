@@ -1,7 +1,7 @@
 ![gentoo-banner](https://github.com/eliaz5536/gentoo-update-script/assets/5835036/96810555-601a-46f1-a4c5-ea5a21461f3f)
 
 # EasyPortage
-Shell Scripts for updating &amp; upgrading Gentoo Linux on daily, monthly or weekly basis to maintain your system at a stable fashion.
+Gentoo Linux Update Scheduler using Bash Script.
 
 # Gentoo Linux
 Gentoo Linux is a meta-distribution linux distribution, meaning that you as the user are responsible for customizing your system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
