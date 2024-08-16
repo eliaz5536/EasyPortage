@@ -6,7 +6,8 @@ Gentoo Linux is a meta-distribution linux distribution that allows the user to c
 
 However, it is required for the user to type long emerge commands in their machine in order to compile to get the latest packages that fits the profile set of your target system.
 
-This following script aims to automate tasks in Gentoo for the user to updating their system daily, weekly, monthly or yearly up to the user's preference without typing long emerge commands, with addition of also removing unecessary files.
+This following script aims to automate tasks in Gentoo for the user to updating their system daily, weekly, monthly or yearly up to the user's preference without typing long emerge commands, with addition of also removing unecessary files. 
+This is ideal to be used with cron to run scheduled tasks from the user's preference to decide the time to execute the following options of the script.   
 
 # Installation
 ```
