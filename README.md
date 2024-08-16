@@ -1,5 +1,5 @@
 # EasyPortage
-Gentoo Linux Update Scheduler.
+Small Gentoo Linux Update Scheduler.
 
 # Description
 Gentoo Linux is a meta-distribution linux distribution that allows the user to customize their choice of system such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
