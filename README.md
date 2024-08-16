@@ -1,5 +1,3 @@
-![gentoo-banner](https://github.com/eliaz5536/gentoo-update-script/assets/5835036/96810555-601a-46f1-a4c5-ea5a21461f3f)
-
 # EasyPortage
 Gentoo Linux Update Scheduler using Bash Script.
 
