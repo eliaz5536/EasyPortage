@@ -3,7 +3,7 @@
 # EasyPortage
 Gentoo Linux Update Scheduler using Bash Script.
 
-# Gentoo Linux
+# Description
 Gentoo Linux is a meta-distribution linux distribution, meaning that you as the user are responsible for customizing your system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
 
 However, Gentoo Linux meets its issues very commonly on the fact that it takes a very long time to compile the source code using Portage, which requires tweaking the settings from make.conf to ensure that based on the user's preference that matches their criteria. 
