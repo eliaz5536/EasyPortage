@@ -22,11 +22,11 @@ chmod +x easyportage.sh
 # Symlink
 It is recommended for ease-of-use, to create a symlink to the /usr/bin directory to ensure it 
 ```
-sn -ln ~/easyportage/easyportage.sh /usr/bin
+ln -s ~/easyportage/easyportage.sh /usr/bin
 ```
 
 # Cronjob
-You can manually input the executable on the cronjob to ensure that it executes the easyportage file on the following.
+You can manually input the executable on the cronjob to ensure that it executes the easyportage file on the following, by which can be executed daily, weekly or monthly.
 ```
 <INSERT HERE>
 ```
@@ -36,6 +36,22 @@ You can manually input the executable on the cronjob to ensure that it executes 
 EasyPortage
 
 Usage: ./easyportage.sh [options]
+```
+
+# Help
+```
+EasyPortage
+
+Usage: ./easyportage.sh [options]
+
+Options:
+  --usage                                                Show Usage information
+  -h, --help                                             Show help message
+  -d, --daily                                            Executes commands to run once everyday
+  -w, --weekly                                           Executes commands to run once a week
+  -m, --monthly                                          Executes commands to run once a month
+  -c, --clean                                            Remove unecessary files and packages
+
 ```
 
 # License
