@@ -2,7 +2,9 @@
 Gentoo Linux Update Scheduler.
 
 # Description
-Gentoo Linux is a meta-distribution linux distribution, allowing the user customize their choice of  system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
+Gentoo Linux is a meta-distribution linux distribution that allows the user to customize their choice of system such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
+
+However, it is required for the user to type long emerge commands in their machine in order to compile to get the latest packages that fits the profile set of your target system.
 
 This following script aims to automate tasks in Gentoo for the user to updating their system daily, weekly, monthly or yearly up to the user's preference without typing long emerge commands, with addition of also removing unecessary files.
 
