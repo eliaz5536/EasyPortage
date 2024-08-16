@@ -1,11 +1,10 @@
 # EasyPortage
-Gentoo Linux Update Scheduler using Bash Script.
+Gentoo Linux Update Scheduler.
 
 # Description
 Gentoo Linux is a meta-distribution linux distribution, allowing the user customize their choice of  system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
 
-This following script fixes such problems of automating certain process in Gentoo to ensure the user has a choice of updating effectively without the need to type excessively to perform the same tasks.
-This can be performed daily, weekly, monthly or yearly for you to customize.
+This following script aims to automate tasks in Gentoo for the user to updating their system daily, weekly, monthly or yearly up to the user's preference without typing long emerge commands, with addition of also removing unecessary files.
 
 # Installation
 ```
@@ -20,15 +19,9 @@ chmod +x easyportage.sh
 ```
 
 # Symlink
-It is recommended for ease-of-use, to create a symlink to the /usr/bin directory to ensure it 
+It is recommended for ease-of-use, to create a symlink to the /usr/bin directory to execute the script directory without directing to the same directory to execute such a script.
 ```
 ln -s ~/easyportage/easyportage.sh /usr/bin
-```
-
-# Cronjob
-You can manually input the executable on the cronjob to ensure that it executes the easyportage file on the following, by which can be executed daily, weekly or monthly.
-```
-<INSERT HERE>
 ```
 
 # Usage
