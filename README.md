@@ -2,16 +2,17 @@
 Gentoo Linux Update Scheduler using Bash Script.
 
 # Description
-Gentoo Linux is a meta-distribution linux distribution, meaning that you as the user are responsible for customizing your system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
+Gentoo Linux is a meta-distribution linux distribution, allowing the user customize their choice of  system, even by its components such as its kernel. Unlike other well-known linux distributions, it is a source-based distribution, meaning that the user has the preference to compile the source code from any package of their preference themselves for optimizing their system, which is achieved using Portage. 
 
-However, Gentoo Linux meets its issues very commonly on the fact that it takes a very long time to compile the source code using Portage, which requires tweaking the settings from make.conf to ensure that based on the user's preference that matches their criteria. 
-
-It is critical and even essential to always update & upgrade source-based linux distribution as any lack of change ccan result in conflicts of files, which is not like binary-based distributions.
+This following script fixes such problems of automating certain process in Gentoo to ensure the user has a choice of updating effectively without the need to type excessively to perform the same tasks.
+This can be performed daily, weekly, monthly or yearly for you to customize.
 
 # Installation
 ```
-<insert code over here>
+
+
 ```
+
 # Symlink
 ```
 <insert help over here>
