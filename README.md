@@ -9,8 +9,14 @@ This can be performed daily, weekly, monthly or yearly for you to customize.
 
 # Installation
 ```
+# Clone the following repository
+git clone https://github.com/eliaz5536/easyportage.git # Clone repository
 
+# Access the repository and change file permission of the script to be executable
+chmod +x easyportage.sh 
 
+# Launch NetAuto
+./easyportage.sh
 ```
 
 # Symlink
